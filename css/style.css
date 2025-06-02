@@ -1,12 +1,14 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body {
     font-family: "Plus Jakarta Sans", sans-serif;
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }
 .image {
     display: none;
-}
-.login {
-
 }
